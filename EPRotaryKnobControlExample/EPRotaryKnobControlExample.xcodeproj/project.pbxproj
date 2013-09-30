@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		644E940017F9C77F00D7B473 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644E93FF17F9C77F00D7B473 /* Foundation.framework */; };
+		644E940217F9C77F00D7B473 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644E940117F9C77F00D7B473 /* CoreGraphics.framework */; };
+		644E940417F9C77F00D7B473 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644E940317F9C77F00D7B473 /* UIKit.framework */; };
+		644E940A17F9C77F00D7B473 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 644E940817F9C77F00D7B473 /* InfoPlist.strings */; };
+		644E940C17F9C77F00D7B473 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 644E940B17F9C77F00D7B473 /* main.m */; };
+		644E941017F9C77F00D7B473 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 644E940F17F9C77F00D7B473 /* AppDelegate.m */; };
+		644E941317F9C77F00D7B473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644E941117F9C77F00D7B473 /* Main.storyboard */; };
+		644E941617F9C77F00D7B473 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 644E941517F9C77F00D7B473 /* ViewController.m */; };
+		644E941817F9C77F00D7B473 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644E941717F9C77F00D7B473 /* Images.xcassets */; };
+		644E941F17F9C77F00D7B473 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644E941E17F9C77F00D7B473 /* XCTest.framework */; };
+		644E942017F9C77F00D7B473 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644E93FF17F9C77F00D7B473 /* Foundation.framework */; };
+		644E942117F9C77F00D7B473 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644E940317F9C77F00D7B473 /* UIKit.framework */; };
+		644E942917F9C77F00D7B473 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 644E942717F9C77F00D7B473 /* InfoPlist.strings */; };
+		644E942B17F9C77F00D7B473 /* EPRotaryKnobControlExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 644E942A17F9C77F00D7B473 /* EPRotaryKnobControlExampleTests.m */; };
+		C9F73F6987102175AF589704 /* EPCircleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F2DD96245FEE4F5B26C163 /* EPCircleSlider.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		644E942217F9C77F00D7B473 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 644E93F417F9C77F00D7B473 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 644E93FB17F9C77F00D7B473;
+			remoteInfo = EPRotaryKnobControlExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		644E93FC17F9C77F00D7B473 /* EPRotaryKnobControlExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPRotaryKnobControlExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		644E93FF17F9C77F00D7B473 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		644E940117F9C77F00D7B473 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		644E940317F9C77F00D7B473 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		644E940717F9C77F00D7B473 /* EPRotaryKnobControlExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPRotaryKnobControlExample-Info.plist"; sourceTree = "<group>"; };
+		644E940917F9C77F00D7B473 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		644E940B17F9C77F00D7B473 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		644E940D17F9C77F00D7B473 /* EPRotaryKnobControlExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EPRotaryKnobControlExample-Prefix.pch"; sourceTree = "<group>"; };
+		644E940E17F9C77F00D7B473 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		644E940F17F9C77F00D7B473 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		644E941217F9C77F00D7B473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		644E941417F9C77F00D7B473 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		644E941517F9C77F00D7B473 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		644E941717F9C77F00D7B473 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		644E941D17F9C77F00D7B473 /* EPRotaryKnobControlExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPRotaryKnobControlExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		644E941E17F9C77F00D7B473 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		644E942617F9C77F00D7B473 /* EPRotaryKnobControlExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPRotaryKnobControlExampleTests-Info.plist"; sourceTree = "<group>"; };
+		644E942817F9C77F00D7B473 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		644E942A17F9C77F00D7B473 /* EPRotaryKnobControlExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPRotaryKnobControlExampleTests.m; sourceTree = "<group>"; };
+		C9F1108B783CDA2A3B8ECB08 /* EPCircleSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPCircleSlider.h; sourceTree = "<group>"; };
+		C9F2DD96245FEE4F5B26C163 /* EPCircleSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPCircleSlider.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		644E93F917F9C77F00D7B473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644E940217F9C77F00D7B473 /* CoreGraphics.framework in Frameworks */,
+				644E940417F9C77F00D7B473 /* UIKit.framework in Frameworks */,
+				644E940017F9C77F00D7B473 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644E941A17F9C77F00D7B473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644E941F17F9C77F00D7B473 /* XCTest.framework in Frameworks */,
+				644E942117F9C77F00D7B473 /* UIKit.framework in Frameworks */,
+				644E942017F9C77F00D7B473 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		644E93F317F9C77F00D7B473 = {
+			isa = PBXGroup;
+			children = (
+				644E940517F9C77F00D7B473 /* EPRotaryKnobControlExample */,
+				644E942417F9C77F00D7B473 /* EPRotaryKnobControlExampleTests */,
+				644E93FE17F9C77F00D7B473 /* Frameworks */,
+				644E93FD17F9C77F00D7B473 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		644E93FD17F9C77F00D7B473 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				644E93FC17F9C77F00D7B473 /* EPRotaryKnobControlExample.app */,
+				644E941D17F9C77F00D7B473 /* EPRotaryKnobControlExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		644E93FE17F9C77F00D7B473 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				644E93FF17F9C77F00D7B473 /* Foundation.framework */,
+				644E940117F9C77F00D7B473 /* CoreGraphics.framework */,
+				644E940317F9C77F00D7B473 /* UIKit.framework */,
+				644E941E17F9C77F00D7B473 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		644E940517F9C77F00D7B473 /* EPRotaryKnobControlExample */ = {
+			isa = PBXGroup;
+			children = (
+				644E943417F9F56E00D7B473 /* iPad */,
+				644E940E17F9C77F00D7B473 /* AppDelegate.h */,
+				644E940F17F9C77F00D7B473 /* AppDelegate.m */,
+				644E941117F9C77F00D7B473 /* Main.storyboard */,
+				644E941417F9C77F00D7B473 /* ViewController.h */,
+				644E941517F9C77F00D7B473 /* ViewController.m */,
+				644E941717F9C77F00D7B473 /* Images.xcassets */,
+				644E940617F9C77F00D7B473 /* Supporting Files */,
+				C9FFD6DCFA9AAA9E6F770A42 /* EPRotaryKnobControl */,
+			);
+			path = EPRotaryKnobControlExample;
+			sourceTree = "<group>";
+		};
+		644E940617F9C77F00D7B473 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				644E940717F9C77F00D7B473 /* EPRotaryKnobControlExample-Info.plist */,
+				644E940817F9C77F00D7B473 /* InfoPlist.strings */,
+				644E940B17F9C77F00D7B473 /* main.m */,
+				644E940D17F9C77F00D7B473 /* EPRotaryKnobControlExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		644E942417F9C77F00D7B473 /* EPRotaryKnobControlExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				644E942A17F9C77F00D7B473 /* EPRotaryKnobControlExampleTests.m */,
+				644E942517F9C77F00D7B473 /* Supporting Files */,
+			);
+			path = EPRotaryKnobControlExampleTests;
+			sourceTree = "<group>";
+		};
+		644E942517F9C77F00D7B473 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				644E942617F9C77F00D7B473 /* EPRotaryKnobControlExampleTests-Info.plist */,
+				644E942717F9C77F00D7B473 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		644E943417F9F56E00D7B473 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		C9FFD6DCFA9AAA9E6F770A42 /* EPRotaryKnobControl */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2DD96245FEE4F5B26C163 /* EPCircleSlider.m */,
+				C9F1108B783CDA2A3B8ECB08 /* EPCircleSlider.h */,
+			);
+			name = EPRotaryKnobControl;
+			path = ../../EPRotaryKnobControlExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		644E93FB17F9C77F00D7B473 /* EPRotaryKnobControlExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644E942E17F9C77F00D7B473 /* Build configuration list for PBXNativeTarget "EPRotaryKnobControlExample" */;
+			buildPhases = (
+				644E93F817F9C77F00D7B473 /* Sources */,
+				644E93F917F9C77F00D7B473 /* Frameworks */,
+				644E93FA17F9C77F00D7B473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EPRotaryKnobControlExample;
+			productName = EPRotaryKnobControlExample;
+			productReference = 644E93FC17F9C77F00D7B473 /* EPRotaryKnobControlExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		644E941C17F9C77F00D7B473 /* EPRotaryKnobControlExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644E943117F9C77F00D7B473 /* Build configuration list for PBXNativeTarget "EPRotaryKnobControlExampleTests" */;
+			buildPhases = (
+				644E941917F9C77F00D7B473 /* Sources */,
+				644E941A17F9C77F00D7B473 /* Frameworks */,
+				644E941B17F9C77F00D7B473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				644E942317F9C77F00D7B473 /* PBXTargetDependency */,
+			);
+			name = EPRotaryKnobControlExampleTests;
+			productName = EPRotaryKnobControlExampleTests;
+			productReference = 644E941D17F9C77F00D7B473 /* EPRotaryKnobControlExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		644E93F417F9C77F00D7B473 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Eduard Panasiuk";
+				TargetAttributes = {
+					644E941C17F9C77F00D7B473 = {
+						TestTargetID = 644E93FB17F9C77F00D7B473;
+					};
+				};
+			};
+			buildConfigurationList = 644E93F717F9C77F00D7B473 /* Build configuration list for PBXProject "EPRotaryKnobControlExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 644E93F317F9C77F00D7B473;
+			productRefGroup = 644E93FD17F9C77F00D7B473 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				644E93FB17F9C77F00D7B473 /* EPRotaryKnobControlExample */,
+				644E941C17F9C77F00D7B473 /* EPRotaryKnobControlExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		644E93FA17F9C77F00D7B473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644E941817F9C77F00D7B473 /* Images.xcassets in Resources */,
+				644E940A17F9C77F00D7B473 /* InfoPlist.strings in Resources */,
+				644E941317F9C77F00D7B473 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644E941B17F9C77F00D7B473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644E942917F9C77F00D7B473 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		644E93F817F9C77F00D7B473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644E941617F9C77F00D7B473 /* ViewController.m in Sources */,
+				644E941017F9C77F00D7B473 /* AppDelegate.m in Sources */,
+				644E940C17F9C77F00D7B473 /* main.m in Sources */,
+				C9F73F6987102175AF589704 /* EPCircleSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644E941917F9C77F00D7B473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644E942B17F9C77F00D7B473 /* EPRotaryKnobControlExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		644E942317F9C77F00D7B473 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 644E93FB17F9C77F00D7B473 /* EPRotaryKnobControlExample */;
+			targetProxy = 644E942217F9C77F00D7B473 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		644E940817F9C77F00D7B473 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644E940917F9C77F00D7B473 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		644E941117F9C77F00D7B473 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644E941217F9C77F00D7B473 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		644E942717F9C77F00D7B473 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644E942817F9C77F00D7B473 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		644E942C17F9C77F00D7B473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		644E942D17F9C77F00D7B473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		644E942F17F9C77F00D7B473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPRotaryKnobControlExample/EPRotaryKnobControlExample-Prefix.pch";
+				INFOPLIST_FILE = "EPRotaryKnobControlExample/EPRotaryKnobControlExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		644E943017F9C77F00D7B473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPRotaryKnobControlExample/EPRotaryKnobControlExample-Prefix.pch";
+				INFOPLIST_FILE = "EPRotaryKnobControlExample/EPRotaryKnobControlExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		644E943217F9C77F00D7B473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EPRotaryKnobControlExample.app/EPRotaryKnobControlExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPRotaryKnobControlExample/EPRotaryKnobControlExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EPRotaryKnobControlExampleTests/EPRotaryKnobControlExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		644E943317F9C77F00D7B473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EPRotaryKnobControlExample.app/EPRotaryKnobControlExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPRotaryKnobControlExample/EPRotaryKnobControlExample-Prefix.pch";
+				INFOPLIST_FILE = "EPRotaryKnobControlExampleTests/EPRotaryKnobControlExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		644E93F717F9C77F00D7B473 /* Build configuration list for PBXProject "EPRotaryKnobControlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644E942C17F9C77F00D7B473 /* Debug */,
+				644E942D17F9C77F00D7B473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644E942E17F9C77F00D7B473 /* Build configuration list for PBXNativeTarget "EPRotaryKnobControlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644E942F17F9C77F00D7B473 /* Debug */,
+				644E943017F9C77F00D7B473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644E943117F9C77F00D7B473 /* Build configuration list for PBXNativeTarget "EPRotaryKnobControlExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644E943217F9C77F00D7B473 /* Debug */,
+				644E943317F9C77F00D7B473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 644E93F417F9C77F00D7B473 /* Project object */;
+}
