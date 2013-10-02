@@ -23,10 +23,10 @@
 
 
 #import "ViewController.h"
-#import "EPCircleSlider.h"
+#import "EPRotaryKnobControl.h"
 
 @interface ViewController ()
-@property (nonatomic, strong) EPCircleSlider *cSlider;
+@property (nonatomic, strong) EPRotaryKnobControl *cSlider;
 @end
 
 @implementation ViewController
@@ -35,18 +35,19 @@
 {
     [super viewDidLoad];
 
-    self.cSlider=[[EPCircleSlider alloc] initWithFrame:CGRectMake(60, 100, 200, 200)];
+    self.cSlider=[[EPRotaryKnobControl alloc] initWithFrame:CGRectMake(60, 100, 200, 200)];
     self.cSlider.backgroundColor=[UIColor whiteColor];
     self.cSlider.circleColor=[UIColor whiteColor];
     self.cSlider.handleAndDotsColor= [UIColor lightGrayColor];
     self.label.text=[NSString stringWithFormat:@"%.0f",self.cSlider.value*100.0f ];
     __weak typeof(self) wself=self;
+
+    //update value block
     self.cSlider.updateBlock=^(CGFloat value){
         wself.label.text=[NSString stringWithFormat:@"%.0f %%",value*100.0f ];
-
     };
-    [self.view addSubview:self.cSlider];
 
+    [self.view addSubview:self.cSlider];
 }
 
 - (void)didReceiveMemoryWarning

@@ -21,7 +21,7 @@
 		644E942117F9C77F00D7B473 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644E940317F9C77F00D7B473 /* UIKit.framework */; };
 		644E942917F9C77F00D7B473 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 644E942717F9C77F00D7B473 /* InfoPlist.strings */; };
 		644E942B17F9C77F00D7B473 /* EPRotaryKnobControlExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 644E942A17F9C77F00D7B473 /* EPRotaryKnobControlExampleTests.m */; };
-		C9F73F6987102175AF589704 /* EPCircleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F2DD96245FEE4F5B26C163 /* EPCircleSlider.m */; };
+		C9F73F6987102175AF589704 /* EPRotaryKnobControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F2DD96245FEE4F5B26C163 /* EPRotaryKnobControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		644E942617F9C77F00D7B473 /* EPRotaryKnobControlExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPRotaryKnobControlExampleTests-Info.plist"; sourceTree = "<group>"; };
 		644E942817F9C77F00D7B473 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		644E942A17F9C77F00D7B473 /* EPRotaryKnobControlExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPRotaryKnobControlExampleTests.m; sourceTree = "<group>"; };
-		C9F1108B783CDA2A3B8ECB08 /* EPCircleSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPCircleSlider.h; sourceTree = "<group>"; };
-		C9F2DD96245FEE4F5B26C163 /* EPCircleSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPCircleSlider.m; sourceTree = "<group>"; };
+		C9F1108B783CDA2A3B8ECB08 /* EPRotaryKnobControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPRotaryKnobControl.h; sourceTree = "<group>"; };
+		C9F2DD96245FEE4F5B26C163 /* EPRotaryKnobControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPRotaryKnobControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,8 +167,8 @@
 		C9FFD6DCFA9AAA9E6F770A42 /* EPRotaryKnobControl */ = {
 			isa = PBXGroup;
 			children = (
-				C9F2DD96245FEE4F5B26C163 /* EPCircleSlider.m */,
-				C9F1108B783CDA2A3B8ECB08 /* EPCircleSlider.h */,
+				C9F2DD96245FEE4F5B26C163 /* EPRotaryKnobControl.m */,
+				C9F1108B783CDA2A3B8ECB08 /* EPRotaryKnobControl.h */,
 			);
 			name = EPRotaryKnobControl;
 			path = ../../EPRotaryKnobControlExample;
@@ -222,7 +222,7 @@
 				ORGANIZATIONNAME = "Eduard Panasiuk";
 				TargetAttributes = {
 					644E941C17F9C77F00D7B473 = {
-						TestTargetID = 644E93FB17F9C77F00D7B473;
+						TestTargetID = 644E93FB17F9C77F00D7B473 /* EPRotaryKnobControlExample */;
 					};
 				};
 			};
@@ -274,7 +274,7 @@
 				644E941617F9C77F00D7B473 /* ViewController.m in Sources */,
 				644E941017F9C77F00D7B473 /* AppDelegate.m in Sources */,
 				644E940C17F9C77F00D7B473 /* main.m in Sources */,
-				C9F73F6987102175AF589704 /* EPCircleSlider.m in Sources */,
+				C9F73F6987102175AF589704 /* EPRotaryKnobControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

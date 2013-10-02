@@ -1,5 +1,5 @@
 //
-//  EPCircleSlider.h
+//  EPRotaryKnobControl.h
 //  SimpleCircleSlider
 //
 //  Copyright (c) 2013 Eduard Panasiuk
@@ -24,7 +24,7 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 
-@interface EPCircleSlider : UIControl
+@interface EPRotaryKnobControl : UIControl
 
 @property (nonatomic, assign) CGFloat value;
 @property (nonatomic, assign) NSInteger dotsCount;

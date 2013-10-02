@@ -1,5 +1,5 @@
 //
-//  EPCircleSlider.m
+//  EPRotaryKnobControl.m
 //  SimpleCircleSlider
 //
 //  Copyright (c) 2013 Eduard Panasiuk
@@ -21,7 +21,7 @@
 //  IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import "EPCircleSlider.h"
+#import "EPRotaryKnobControl.h"
 
 //dot diameter
 static const CGFloat kDotDiameterRatio =0.02f;
@@ -41,7 +41,7 @@ static const double kHandleMinAngleRadians =  (3*M_PI/2-kHandleCutOffAngleRadian
 static const double kHandleMaxAngleRadians =  (3*M_PI/2+kHandleCutOffAngleRadians/2);
 static const double kHandleScaleRadians =  (kHandleMinAngleRadians+2* M_PI-kHandleMaxAngleRadians);
 
-@interface EPCircleSlider()
+@interface EPRotaryKnobControl ()
 
 @property (nonatomic, strong) CAShapeLayer *handleLayer;
 @property (nonatomic, strong) CALayer *circleLayer;
@@ -52,7 +52,7 @@ static const double kHandleScaleRadians =  (kHandleMinAngleRadians+2* M_PI-kHand
 
 @end
 
-@implementation EPCircleSlider
+@implementation EPRotaryKnobControl
 
 @synthesize dotsCount=_dotsCount;
 @synthesize circleColor=_circleColor;
