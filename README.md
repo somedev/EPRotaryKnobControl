@@ -16,18 +16,19 @@ Project uses ARC.
 {
     [super viewDidLoad];
 
-    self.cSlider=[[EPRotaryKnobControl alloc] initWithFrame:CGRectMake(60, 100, 200, 200)];
-    self.cSlider.backgroundColor=[UIColor whiteColor];
-    self.cSlider.circleColor=[UIColor whiteColor];
-    self.cSlider.handleAndDotsColor= [UIColor lightGrayColor];
-    self.label.text=[NSString stringWithFormat:@"%.0f",self.cSlider.value*100.0f ];
-    __weak typeof(self) wself=self;
+    self.cSlider = [[EPRotaryKnobControl alloc] initWithFrame:CGRectMake(60, 100, 200, 200)];
+    self.cSlider.backgroundColor = [UIColor whiteColor];
+    self.cSlider.circleColor = [UIColor whiteColor];
+    self.cSlider.handleAndDotsColor = [UIColor lightGrayColor];
+    self.label.text=[NSString stringWithFormat:@"%.0f", self.cSlider.value * 100.0f];
+    
+    __weak typeof(self) wself = self;
     
     //update value block
-    self.cSlider.updateBlock=^(CGFloat value){
-        wself.label.text=[NSString stringWithFormat:@"%.0f %%",value*100.0f ];
+    self.cSlider.updateBlock = ^(CGFloat value){
+        wself.label.text = [NSString stringWithFormat:@"%.0f %%", value * 100.0f];
     };
-    
+
     [self.view addSubview:self.cSlider];
 }
 ```
