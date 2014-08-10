@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64469C1F1997F5AE00273EC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644E941117F9C77F00D7B473 /* Main.storyboard */; };
+		64469C231997F60000273EC3 /* EPRotaryKnobControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 64469C221997F60000273EC3 /* EPRotaryKnobControl.m */; };
 		644E940017F9C77F00D7B473 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644E93FF17F9C77F00D7B473 /* Foundation.framework */; };
 		644E940217F9C77F00D7B473 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644E940117F9C77F00D7B473 /* CoreGraphics.framework */; };
 		644E940417F9C77F00D7B473 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644E940317F9C77F00D7B473 /* UIKit.framework */; };
 		644E940A17F9C77F00D7B473 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 644E940817F9C77F00D7B473 /* InfoPlist.strings */; };
 		644E940C17F9C77F00D7B473 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 644E940B17F9C77F00D7B473 /* main.m */; };
 		644E941017F9C77F00D7B473 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 644E940F17F9C77F00D7B473 /* AppDelegate.m */; };
-		644E941317F9C77F00D7B473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644E941117F9C77F00D7B473 /* Main.storyboard */; };
 		644E941617F9C77F00D7B473 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 644E941517F9C77F00D7B473 /* ViewController.m */; };
 		644E941817F9C77F00D7B473 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644E941717F9C77F00D7B473 /* Images.xcassets */; };
 		644E941F17F9C77F00D7B473 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644E941E17F9C77F00D7B473 /* XCTest.framework */; };
@@ -21,7 +22,6 @@
 		644E942117F9C77F00D7B473 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644E940317F9C77F00D7B473 /* UIKit.framework */; };
 		644E942917F9C77F00D7B473 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 644E942717F9C77F00D7B473 /* InfoPlist.strings */; };
 		644E942B17F9C77F00D7B473 /* EPRotaryKnobControlExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 644E942A17F9C77F00D7B473 /* EPRotaryKnobControlExampleTests.m */; };
-		C9F73F6987102175AF589704 /* EPRotaryKnobControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F2DD96245FEE4F5B26C163 /* EPRotaryKnobControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64469C211997F60000273EC3 /* EPRotaryKnobControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EPRotaryKnobControl.h; path = ../EPRotaryKnobControl/EPRotaryKnobControl.h; sourceTree = "<group>"; };
+		64469C221997F60000273EC3 /* EPRotaryKnobControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EPRotaryKnobControl.m; path = ../EPRotaryKnobControl/EPRotaryKnobControl.m; sourceTree = "<group>"; };
 		644E93FC17F9C77F00D7B473 /* EPRotaryKnobControlExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPRotaryKnobControlExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		644E93FF17F9C77F00D7B473 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		644E940117F9C77F00D7B473 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,8 +56,6 @@
 		644E942617F9C77F00D7B473 /* EPRotaryKnobControlExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPRotaryKnobControlExampleTests-Info.plist"; sourceTree = "<group>"; };
 		644E942817F9C77F00D7B473 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		644E942A17F9C77F00D7B473 /* EPRotaryKnobControlExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPRotaryKnobControlExampleTests.m; sourceTree = "<group>"; };
-		C9F1108B783CDA2A3B8ECB08 /* EPRotaryKnobControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPRotaryKnobControl.h; sourceTree = "<group>"; };
-		C9F2DD96245FEE4F5B26C163 /* EPRotaryKnobControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPRotaryKnobControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,12 +167,11 @@
 		C9FFD6DCFA9AAA9E6F770A42 /* EPRotaryKnobControl */ = {
 			isa = PBXGroup;
 			children = (
-				C9F2DD96245FEE4F5B26C163 /* EPRotaryKnobControl.m */,
-				C9F1108B783CDA2A3B8ECB08 /* EPRotaryKnobControl.h */,
+				64469C211997F60000273EC3 /* EPRotaryKnobControl.h */,
+				64469C221997F60000273EC3 /* EPRotaryKnobControl.m */,
 			);
 			name = EPRotaryKnobControl;
-			path = ../../EPRotaryKnobControlExample;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -218,11 +217,11 @@
 		644E93F417F9C77F00D7B473 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Eduard Panasiuk";
 				TargetAttributes = {
 					644E941C17F9C77F00D7B473 = {
-						TestTargetID = 644E93FB17F9C77F00D7B473 /* EPRotaryKnobControlExample */;
+						TestTargetID = 644E93FB17F9C77F00D7B473;
 					};
 				};
 			};
@@ -250,9 +249,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64469C1F1997F5AE00273EC3 /* Main.storyboard in Resources */,
 				644E941817F9C77F00D7B473 /* Images.xcassets in Resources */,
 				644E940A17F9C77F00D7B473 /* InfoPlist.strings in Resources */,
-				644E941317F9C77F00D7B473 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				644E941617F9C77F00D7B473 /* ViewController.m in Sources */,
+				64469C231997F60000273EC3 /* EPRotaryKnobControl.m in Sources */,
 				644E941017F9C77F00D7B473 /* AppDelegate.m in Sources */,
 				644E940C17F9C77F00D7B473 /* main.m in Sources */,
-				C9F73F6987102175AF589704 /* EPRotaryKnobControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +327,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -367,7 +365,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -429,7 +426,6 @@
 		644E943217F9C77F00D7B473 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EPRotaryKnobControlExample.app/EPRotaryKnobControlExample";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -452,7 +448,6 @@
 		644E943317F9C77F00D7B473 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EPRotaryKnobControlExample.app/EPRotaryKnobControlExample";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
